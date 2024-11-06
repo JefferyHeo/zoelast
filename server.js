@@ -1,16 +1,10 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send('Hello, Heroku!');
-});
+app.get('/', (req, res) => { res.send('Hello, this is my Heroku app!'); });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
-
-
+app.listen(PORT, () => { console.log(Server is running on port ${PORT}); });
 
 // 정적 파일 제공 (HTML, CSS, JS)
 app.use(express.static('public'));
