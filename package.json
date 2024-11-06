@@ -1,4 +1,3 @@
-
 {
   "name": "my-zoe-app",
   "version": "1.0.0",
@@ -7,6 +6,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.21.1"  // express를 설치했을 때 버전이 여기에 표시됨
+    "express": "^4.21.1"
   }
 }
